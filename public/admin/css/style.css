@@ -1,0 +1,140 @@
+/*notification alert*/
+.alert {
+    position: relative;
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 5px 0;
+    padding-left: 80px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #22c0e8;
+    top: 35%;
+    left: 53px;
+    width: 15px;
+    height: 15px;
+    z-index: 400;
+}
+
+ul.timeline li {
+    position: relative;
+    border-bottom: 1px solid transparent;
+    clear: both;
+}
+
+.timestamp {
+    top: 35%;
+    left: -5%;
+    position: absolute;
+    text-align: right;
+}
+
+/*End Notification alert*/
+.top_nav li a i {
+    font-size: 18px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #8696a7;
+}
+
+/*a:hover {*/
+/*    color: #6a6d71;*/
+/*    text-decoration: none;*/
+/*}*/
+.fa-2x {
+    font-size: 2.75em;
+    font-weight: bold;
+}
+
+.updateButton {
+    font-size: 15px;
+}
+
+.form-control {
+    padding: 0.2rem .75rem;
+}
+
+.item .alert {
+    max-width: none;
+}
+
+.item .alert {
+    float: left;
+    margin: 10px 0 0 20px;
+    padding: 3px 10px;
+    color: #FFF;
+    border-radius: 3px 4px 4px 3px;
+    background-color: #CE5454;
+    white-space: pre;
+    position: relative;
+    left: -15px;
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+}
+
+.alert-form .alert {
+    float: left;
+    margin: 10px 0 0 20px;
+    padding: 3px 10px;
+    color: #FFF;
+    border-radius: 3px 4px 4px 3px;
+    background-color: #CE5454;
+    white-space: pre;
+    position: relative;
+    left: -15px;
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+}
+
+.alert-form .alert::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: transparent #CE5454 transparent transparent;
+    border-style: solid;
+    border-width: 11px 7px;
+    position: absolute;
+    left: -13px;
+    top: 1px;
+}
+
+.tile_count .tile_stats_count .count {
+    font-size: 30px;
+}
+
+.tile_count .tile_stats_count {
+    padding: 0 30px 0 30px !important;
+}
