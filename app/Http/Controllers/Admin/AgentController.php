@@ -27,5 +27,6 @@ class AgentController extends Controller
         $agent = Agent::create($input);
         Notify::notify();
         return redirect()->back();
+        
     }
 }
